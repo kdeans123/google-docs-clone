@@ -11,6 +11,7 @@ import TableRow from '@tiptap/extension-table-row'
 import Image from '@tiptap/extension-image'
 
 
+
 export const Editor = () => {
     const editor = useEditor({
         editorProps: {
@@ -26,6 +27,7 @@ export const Editor = () => {
             TableHeader,
             TableRow,
             Image,
+            
             TaskItem.configure({
                 nested: true,
               }),
